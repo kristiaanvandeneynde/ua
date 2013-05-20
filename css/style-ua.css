@@ -770,9 +770,21 @@ label.has-input + .input-error-message {
 }
 
 .content-page .header-menu .faculties {
-  width: 713px;
-  height: 58px;
-  padding: 0 0 0 10px;
+  width: 692px;
+  height: 205px;
+  padding-left: 52px;
+}
+
+.content-page .header-menu .faculties .arrows li:nth-child(3n+1) {
+  width: 227px;
+}
+
+.content-page .header-menu .faculties .arrows li:nth-child(3n+2) {
+  width: 217px;
+}
+
+.content-page .header-menu .faculties .arrows li:nth-child(3n) {
+  width: 209px;
 }
 
 .header-menu .dd .faculties {
@@ -811,7 +823,8 @@ label.has-input + .input-error-message {
 }
 
 .faculty .header-menu .faculties h1 {
-  line-height: 58px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .header-menu .tab section {
