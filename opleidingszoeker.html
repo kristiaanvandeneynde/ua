@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie10 lt-ie9 no-js"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10 no-js"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Opleidingszoeker</title>
+
+  <link href="css/h5bp.css" rel="stylesheet" />
+  <link href="css/style-ua.css" rel="stylesheet" />
+
+  <script src="js/vendor/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body class="content-page">
+
+  <div class="container">
+    <header>
+      <section class="header-top">
+        <nav class="left">
+          <ul>
+            <li><a href="#" class="lock">Studenten</a></li>
+            <li><a href="#" class="lock">Personeel</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Bibliotheek</a></li>
+          </ul>
+        </nav>
+
+        <nav class="right">
+          <ul>
+            <li><a href="#" class="uk-flag">English site</a></li>
+            <li><a href="#">Vacatures</a></li>
+            <li><a href="#">Pers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <form action="" method="post">
+          <div class="dd-select search">Alles</div><!--
+       --><input type="search" name="zoeken" placeholder="Zoeken" /><!--
+       --><input type="image" name="zoeken-knop" src="img/search_icon.gif" title="Klik hier of druk op enter om te zoeken" value="Zoeken" />
+        </form>
+      </section>
+
+      <a href="#" class="header-cut" title="Bekijk onze site in hoog contrast"><img src="img/high_contrast.gif" alt="High contrast icon" />Hoog contrast</a>
+
+      <section class="header-main" style="background-image: url('img/ex/header-example-1.jpg');">
+        <div class="logo">
+          <a href="#" title="Keer terug naar de homepage"><img src="img/logo.png" alt="Logo UA" /></a>
+        </div>
+
+        <nav>
+          <ul class="header-menu">
+            <li><a class="main handle" href="#">Over UAntwerpen</a></li>
+            <li><a class="main handle" href="#">Campus life</a></li>
+            <li><a class="main handle" href="#">Faculteiten</a></li>
+
+            <li class="red active">
+              <a class="main handle double" href="#">Studeren, vorming<br />en onderwijs</a>
+
+              <section>
+                <ul class="header-menu">
+                  <li><a class="sub handle double" href="#">Studeren aan<br />UAntwerpen</a></li>
+                  <li><a class="sub handle double" href="#">Opleidings- en<br />vormingsaanbod</a></li>
+                  <li><a class="sub handle double active" href="#">Van studiekeuze<br />tot diploma</a></li>
+                  <li><a class="sub handle" href="#">Levenslang leren</a></li>
+                </ul>
+
+                <a href="#" class="cta">Inschrijven</a>       
+              </section>
+            </li>
+
+            <li class="red"><a class="main handle double" href="#">Onderzoek en<br />innovatie</a></li>
+          </ul>
+        </nav>
+
+        <img class="side" src="img/ex/sideheader-example-1.png" alt="Side header image" />
+      </section>
+    </header>
+
+    <section class="page-meta">
+      <nav>
+        Je bent hier:<!--
+
+     --><ul class="breadcrumb arrows">
+          <li><a href="#">UAntwerpen</a></li>
+          <li><a href="#">Studeren en Onderwijs</a></li>
+          <li><a href="#">Van studiekeuze tot diploma</a></li>
+          <li>Studiepunten en leerkredieten</li>
+        </ul>
+      </nav>
+
+      <div class="follow fb-like"
+        data-href="http://ua.ac.be/some-page"
+        data-send="false"
+        data-layout="button_count"
+        data-show-faces="false"
+        data-font="tahoma"
+      ></div>
+
+      <a href="https://twitter.com/share" class="follow twitter-share-button"
+        data-url="http://ua.ac.be/some-page"
+        data-dnt="true"
+        data-via="UAntwerpen"
+        data-lang="nl"
+        data-related="UAntwerpen:Universiteit Antwerpen"
+      >Tweet</a>
+    </section>
+
+    <section class="content">
+      <section class="search-grid left block">
+        <h1>Verfijn je selectie</h1>
+
+        <div class="block-content solr-filter">
+          <h2>Vakgebied</h2>
+          <input type="text" name="vak" placeholder="bvb. biologie" />
+
+          <h2>Opleidingsgraad</h2>
+          <input type="checkbox" name="a" id="a1" /><label for="a1">Bachelor</label><br />
+          <input type="checkbox" name="a" id="a2" /><label for="a2">Master</label><br />
+          <input type="checkbox" name="a" id="a3" /><label for="a3">Master na master</label><br />
+          <input type="checkbox" name="a" id="a4" /><label for="a4">Voorbereidingsprogramma</label><br />
+          <input type="checkbox" name="a" id="a5" /><label for="a5">Schakelprogramma</label><br />
+          <input type="checkbox" name="a" id="a6" /><label for="a6">Lerarenopleiding</label><br />
+          <input type="checkbox" name="a" id="a7" /><label for="a7">Open universiteit</label><br />
+          <input type="checkbox" name="a" id="a8" /><label for="a8">Doctoraat</label>
+
+          <h2>Faculteit en instituten</h2>
+          <input type="checkbox" name="b" id="b1" /><label for="b1">Farmaceutische, Biomedische en Diergeneeskundige Wetenschappen</label><br />
+          <input type="checkbox" name="b" id="b2" /><label for="b2">Geneeskunde en Gezondheidswetenschappen</label><br />
+          <input type="checkbox" name="b" id="b3" /><label for="b3">Letteren en wijsbegeerte</label><br />
+          <input type="checkbox" name="b" id="b4" /><label for="b4">Ontwerpwetenschappen</label><br />
+          <input type="checkbox" name="b" id="b5" /><label for="b5">Politieke en sociale wetenschappen</label><br />
+          <input type="checkbox" name="b" id="b6" /><label for="b6">Rechten</label><br />
+          <input type="checkbox" name="b" id="b7" /><label for="b7">Toegepaste economische wetenschappen</label><br />
+          <input type="checkbox" name="b" id="b8" /><label for="b8">Wetenschappen</label><br />
+          <input type="checkbox" name="b" id="b9" /><label for="b9">IOB</label><br />
+          <input type="checkbox" name="b" id="b0" /><label for="b0">IOIW</label>
+
+          <h2>Soort opleiding of vorming</h2>
+          <input type="checkbox" name="c" id="c1" /><label for="c1">Nieuwe opleidingen</label><br />
+          <input type="checkbox" name="c" id="c2" /><label for="c2">Academische opleidingen</label><br />
+          <input type="checkbox" name="c" id="c3" /><label for="c3">Avondonderwijs</label><br />
+          <input type="checkbox" name="c" id="c4" /><label for="c4">Werkstudenttrajecten</label><br />
+          <input type="checkbox" name="c" id="c5" /><label for="c5">Opleidingen in het Engels</label><br />
+          <input type="checkbox" name="c" id="c6" /><label for="c6">Postacademische vorming</label><br />
+          <input type="checkbox" name="c" id="c7" /><label for="c7">Permanente vorming</label><br />
+
+          <h2>Vak of studieonderdeel</h2>
+          <input type="text" name="vakofs" placeholder="bvb. biologie" />
+        </div>
+      </section>
+
+      <section class="search-grid right">
+        <div class="pager-box solr-box">
+          Groeperen volgens
+
+          <ul class="pager no-style">
+            <li><a href="#" class="active">Alfabet</a></li>
+            <li><a href="#">Opleidingsgraad</a></li>
+            <li><a href="#">Faculteit</a></li>
+            <li><a href="#">Soort opleiding</a></li>
+          </ul>
+        </div>
+
+        <section class="solr-result">
+          <div id="slider-control"></div>
+
+          <ul class="slider no-style">
+            <li><a href="#A">A</a></li>
+            <li><a href="#B">B</a></li>
+            <li><a href="#C">C</a></li>
+            <li>D</li>
+            <li>E</li>
+            <li>F</li>
+            <li>G</li>
+            <li>H</li>
+            <li>I</li>
+            <li>J</li>
+            <li>K</li>
+            <li>L</li>
+            <li>M</li>
+            <li>N</li>
+            <li>O</li>
+            <li>P</li>
+            <li>Q</li>
+            <li>R</li>
+            <li>S</li>
+            <li>T</li>
+            <li>U</li>
+            <li>V</li>
+            <li>W</li>
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul>
+
+          <section class="solr-result-page">
+            <section>
+              <h1 id="A">A</h1>
+
+              <h2>Master in de Archivistiek</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Master in de Arbeidsgeneeskunde</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+            </section>
+
+            <section>
+              <h1 id="B">B</h1>
+
+              <h2>Bachelor in de Biochemie en Biotechnologie</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Bachelor in de Bio-ingengieurswetenschappen</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Bachelor in de Biologie</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Bachelor in de Biomedische wetenschappen</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Bachelor in de Bio-ingengieurswetenschappen</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+            </section>
+
+            <section>
+              <h1 id="C">C</h1>
+
+              <h2>Master in de Chemie</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Master in de Computer Science</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+
+              <h2>Master in de Communicatiewetenschappen</h2>
+              <span>MaNaMa | Faculteit Geneeskunde en Gezondheidswetenschappen | Voltijds opleiding</span>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <footer class="page-footer">
+      <ul class="footer-logos no-style">
+        <li><a href="#" class="aacsb" title="Bekijk de site van sponsor X">&nbsp;</a></li>
+        <li><a href="#" class="auha" title="Bekijk de site van sponsor X">&nbsp;</a></li>
+        <li><a href="#" class="antstud" title="Bekijk de site van sponsor X">&nbsp;</a></li>
+        <li><a href="#" class="nvao" title="Bekijk de site van sponsor X">&nbsp;</a></li>
+      </ul>
+
+      <nav>
+        <ul class="footer-menu">
+          <li>Copyright 2012 UAntwerpen</li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+
+  <div id="fb-root"></div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <!--[if lt IE 9]>
+    <script src="js/vendor/selectivizr-1.0.2.min.js"></script>
+  <![endif]-->
+
+  <script src="js/custom/animations.js"></script>
+  <script src="http://platform.twitter.com/widgets.js"></script>
+  <script src="http://connect.facebook.net/nl_NL/all.js#xfbml=1&appId=21482161928"></script>
+
+</body>
+</html>
