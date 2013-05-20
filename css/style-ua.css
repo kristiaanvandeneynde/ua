@@ -654,8 +654,8 @@ label.has-input + .input-error-message {
 }
 
 .header-menu .sub.handle {
-  margin-left: 1px;
   margin-top: 5px;
+  width: 121px;
   height: 47px;
   line-height: 47px;
 }
