@@ -163,7 +163,7 @@ figure .read-more {
   background: url('../img/active-arrow.png') left 8px no-repeat;
 }
 
-.arrows .active a {
+.arrows .active > a {
   font-weight: bold;
   color: #00426a;
 }
