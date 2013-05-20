@@ -160,9 +160,12 @@ figure .read-more {
 }
 
 .arrows .active {
+  background: url('../img/active-arrow.png') left 8px no-repeat;
+}
+
+.arrows .active a {
   font-weight: bold;
   color: #00426a;
-  background: url('../img/active-arrow.png') left 8px no-repeat;
 }
 
 /***************************************************************************
@@ -1134,6 +1137,15 @@ label.has-input + .input-error-message {
   color: #930031;
 }
 
+.content a {
+  color: #930031;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
 .content article {
   margin: 20px 0;
 }
@@ -1934,7 +1946,6 @@ p + .mini-breadcrumb {
 }
 
 .solr-result .slider a {
-  color: #930031;
   text-decoration: none;
 }
 
