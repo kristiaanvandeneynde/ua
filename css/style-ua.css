@@ -1917,49 +1917,14 @@ p + .mini-breadcrumb {
   margin: 0;
 }
 
-.solr-result {
+.solr-result-wrapper,
+.solr-result-container {
   position: relative;
   z-index: 1;
+}
 
+.solr-result-container {
   padding-right: 50px;
-}
-
-.solr-result .slider {
-  position: absolute;
-  z-index: 2;
-
-  top: 0;
-  right: 0;
-
-  width: 20px;
-  border-left: 8px #e8e9e3 solid;
-}
-
-.solr-result #slider-control {
-  position: absolute;
-  z-index: 3;
-
-  top: 0;
-  right: 20px;
-  width: 8px;
-  height: 65px;
-
-  cursor: pointer;
-  background-color: #00426a;
-}
-
-.solr-result .slider li {
-  margin-top: 6px;
-  padding: 1px 0;
-  text-align: center;
-}
-
-.solr-result .slider li:first-child {
-  margin: 0;
-}
-
-.solr-result .slider a {
-  text-decoration: none;
 }
 
 .solr-result-page {
@@ -1982,6 +1947,60 @@ p + .mini-breadcrumb {
   margin-bottom: 0;
   font-weight: normal;
   color: #00426a;
+}
+
+/***************************************************************************
+ * SOLR page right scrollbar
+ ***************************************************************************/
+
+.solr-result-container #scrollbar_track {
+  position: absolute;
+  z-index: 3;
+
+  top: 0;
+  right: 20px;
+  width: 8px;
+  height: 645px;
+
+  background-color: #e8e9e3;
+}
+
+.solr-result-container #scrollbar_handle {
+  width: 8px;
+  cursor: pointer;
+  background-color: #00426a;
+}
+
+/***************************************************************************
+ * SOLR page right nav
+ ***************************************************************************/
+
+.solr-result-nav {
+  position: absolute;
+  z-index: 2;
+
+  top: 0;
+  right: 0;
+
+  width: 20px;
+}
+
+.solr-result-nav ul {
+  height: 645px;
+}
+
+.solr-result-nav li {
+  margin-top: 6px;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.solr-result-nav li:first-child {
+  margin: 0;
+}
+
+.solr-result-nav a {
+  text-decoration: none;
 }
 
 /***************************************************************************
