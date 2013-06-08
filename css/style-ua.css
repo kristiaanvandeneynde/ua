@@ -1924,11 +1924,11 @@ p + .mini-breadcrumb {
 }
 
 .solr-result-container {
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 .solr-result-page {
-  overflow: hidden;
+  overflow: auto;
   height: 968px;
 }
 
@@ -1953,21 +1953,21 @@ p + .mini-breadcrumb {
  * SOLR page right scrollbar
  ***************************************************************************/
 
-.solr-result-container #scrollbar_track {
-  position: absolute;
-  z-index: 3;
-
-  top: 0;
-  right: 20px;
+.jspVerticalBar {
   width: 8px;
-  height: 645px;
+}
 
+.jspVerticalBar .jspCapBottom {
+  display: block;
+  height: 323px;
+  background-color: #ffffff;
+}
+
+.jspVerticalBar .jspTrack {
   background-color: #e8e9e3;
 }
 
-.solr-result-container #scrollbar_handle {
-  width: 8px;
-  cursor: pointer;
+.jspVerticalBar .jspDrag {
   background-color: #00426a;
 }
 
