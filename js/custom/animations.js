@@ -2,6 +2,7 @@
   $(function () {
     // SOLR search scrollbar
     $('.solr-result-page').jScrollPane({
+      hijackInternalLinks: true,
       verticalDragMinHeight: 65,
       verticalDragMaxHeight: 65,
       verticalGutter: 22,
