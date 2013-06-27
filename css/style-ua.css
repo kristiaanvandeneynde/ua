@@ -1127,7 +1127,8 @@ label.has-input + .input-error-message {
   overflow: hidden;
 }
 
-.content-page .content {
+.content-page .content,
+.personal-page .content {
   background: url('../img/bg-content.gif') top center no-repeat;
 }
 
