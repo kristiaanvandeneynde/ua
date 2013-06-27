@@ -23,6 +23,10 @@ body {
   background: #ffffff url('../img/subsite-bg-page.gif') left 86px repeat-x;
 }
 
+.personal-page {
+  background: #ffffff url('../img/personal-bg-page.gif') left 86px repeat-x;
+}
+
 a:link,
 a:visited,
 a:hover,
@@ -544,8 +548,35 @@ label.has-input + .input-error-message {
   background-color: #ffffff;
 }
 
-.subsite-header-image .logo {
+.personal-page .subsite-header-image {
+  height: 117px;
+}
 
+.personal-page .subsite-header-image:after {
+  height: 118px;
+}
+
+.subsite-header-image .personal-header {
+  position: absolute;
+  top: 29px;
+}
+
+.subsite-header-image .personal-header img {
+  margin-right: 17px;
+}
+
+.subsite-header-image .personal-header hgroup {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.subsite-header-image .personal-header h1 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.subsite-header-image .personal-header h2 {
+  color: #bf2e1b;
 }
 
 /***************************************************************************
