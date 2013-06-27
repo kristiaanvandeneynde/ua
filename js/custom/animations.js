@@ -1,12 +1,14 @@
 (function ($) {
   $(function () {
-    // SOLR search scrollbar
-    $('.solr-result-page').jScrollPane({
-      hijackInternalLinks: true,
-      verticalDragMinHeight: 65,
-      verticalDragMaxHeight: 65,
-      verticalGutter: 22,
-    });
+    if (jQuery().jScrollPane) {
+      // SOLR search scrollbar
+      $('.solr-result-page').jScrollPane({
+        hijackInternalLinks: true,
+        verticalDragMinHeight: 65,
+        verticalDragMaxHeight: 65,
+        verticalGutter: 22,
+      });
+    }
     
     // Sticky tabs
     $('.header-main .tab').mouseenter(function () {
